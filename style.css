@@ -2,11 +2,6 @@
     margin: 0;
     padding: 0;
 }
-@media screen and (max-width: 500px){
-    .formulario{
-        background-color: red;
-    }
-}
 
 body{
     width:100%;
@@ -31,7 +26,7 @@ body{
 
 section{
     padding: 20px;
-    background-image: url('../images/people.jpg');
+    background-image: url('./images/people.jpg');
     background-size: cover;
     overflow: hidden;
 }
@@ -65,7 +60,7 @@ select{
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    background-image: url('../images/arrow.jpg');
+    background-image: url('./images/arrow.jpg');
     background-repeat: no-repeat;
     background-position-x: calc(100% - 10px);
     background-position-y:center ;
